@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>課題011</title>
+</head>
+
+<body>
+    <p>
+        <?php
+        // Step2. 連想配列を作成して変数に代入する
+        $onion_data = [
+            '名前' => '玉ねぎ',
+            '値段' => 200,
+            '産地' => '北海道'
+        ];
+
+        // Step3. foreach文を使ってキーと値をコロンで区切って出力する
+        foreach ($onion_data as $key => $value) {
+            echo "{$key} : {$value}<br>";
+        }
+        ?>
+    </p>
+</body>
+
+</html>
